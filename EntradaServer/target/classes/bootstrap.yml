@@ -1,0 +1,14 @@
+---
+spring:
+  application:
+    name: entrada-server
+  cloud:
+    config:
+      uri: http://localhost:9001	
+server:
+  port: 11001
+  
+  
+  
+  
+   

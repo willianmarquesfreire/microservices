@@ -1,0 +1,17 @@
+
+---
+server:
+    port: 9001
+spring:
+ cloud:
+  config:
+   server:
+    git:
+     uri: https://github.com/munifgebara/microservices
+     searchPaths: configs
+                
+eureka:
+    client:
+        serviceUrl:
+            defaultZone: http://localhost:8001/eureka/
+        
